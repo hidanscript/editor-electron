@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sublime Text</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://kit.fontawesome.com/48317f70fe.js" crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body>
+    <div class="app">
+        <div class="sidebar">
+            <div class="sidebar-items"><i class="fas fa-folder-open icon-folder"></i>src</div>
+            <div class="sidebar-items"><i class="fab fa-js-square icon-js sub"></i>index.js</div>
+            <div class="sidebar-items"><i class="fab fa-python icon-python sub"></i>users.py</div>
+            <div class="sidebar-items"><i class="fas fa-folder icon-folder"></i>build</div>
+            <div class="sidebar-items"><i class="fas fa-folder icon-folder"></i>components</div>
+        </div>
+        <div class="main-area">
+            <div class="tabs">
+                <div class="tab-item-active">
+                    <i class="fab fa-js-square icon-js tab-icon"></i>
+                    <span>index.js</span>
+                </div>
+                <div class="tab-item">
+                    <i class="fab fa-python icon-python tab-iconL"></i>
+                    <span>users.py</span>
+                </div>
+            </div>
+            <textarea spellcheck="false" id="editor" class="main-textarea"></textarea>
+        </div>
+    </div>
+    <script src="./test.js"></script>
+</body>
+</html>
